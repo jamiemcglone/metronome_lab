@@ -3,7 +3,7 @@
 const Slider = ({handleSliderChange},{sliderValue}) => {
     
     return (
-        <input onChange={handleSliderChange} type='range' min='1000' max='10000' value={sliderValue} />
+        <input onChange={handleSliderChange} type='range' min='400' max='2000' value={sliderValue} />
     );
 };
 
