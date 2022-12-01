@@ -1,5 +1,5 @@
-const Button = () =>{
-    return <p>Im a button</p>
+const Button = ({handlePlayPause}) =>{
+    return <h1 onClick={handlePlayPause}>Im a button</h1>
 }
 
 
