@@ -1,5 +1,3 @@
-
-
 const Slider = ({handleSliderChange},{sliderValue}) => {
     
     return (
